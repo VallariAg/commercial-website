@@ -1,3 +1,22 @@
+<div class=" mt-4 mb-8">
+  <h1 class="font-bold text-4xl">About us</h1>
+  <span class="text-gray-700">
+    Find out more about us here. 
+  </span>
+</div>
+
 <div>
-  <h1 class="font-bold text-4xl">About</h1>
+  <% @sections.keys.each do |section| %>
+    <div class="my-4">
+      <h1 class="font-bold text-xl"> <%= section %> </h1>
+      <% if @sections[section]["image"] %>
+        <div class="grid grid-cols-1 items-center bg-white rounded-lg md:grid-cols-5 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+          <span class="col-span-4 text-gray-700 pr-4"> <%= @sections[section]["text"] %> </span>
+          <img src="<%= @sections[section]["image"]%>" class="w-full md:w-40 mx-auto h-auto">
+        </div>
+      <% else %>
+        <span class="text-gray-700"> <%= @sections[section]["text"] %> </span>
+      <% end %> 
+    </div>
+  <% end %>
 </div>
