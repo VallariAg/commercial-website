@@ -13,9 +13,10 @@
   </head>
 
   <body>
-      <main class="container mx-auto mt-8 px-5 break-word">
+      <div class="container h-screen mx-auto mt-8 px-5 break-word">
         <%= render 'layouts/header' %> 
-        <%= yield %>
-      </main>
+        <main class=""> <%= yield %> </main>
+        <%= render 'layouts/footer' %> 
+      </div>
   </body>
 </html>
