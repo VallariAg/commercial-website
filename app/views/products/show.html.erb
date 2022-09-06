@@ -1,0 +1,13 @@
+<h1>Product <%= @title %> </h1>
+
+
+<ul>
+  <% @items.keys.each do |item| %>
+    <li>
+      <a href="<%= request.fullpath + "/" + @items[item][:id] %>">
+        <%= @items[item][:name] %>
+      </a>
+    </li>
+  <% end %>
+</ul>
+

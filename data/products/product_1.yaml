@@ -1,0 +1,16 @@
+---
+:title: product type 1
+:description: xyz
+:items:
+  item_1:
+    :id: item_1
+    :name: Item 1
+    :description: This is Item 1
+    :images: 
+        - "cars"
+  item_2:
+    :id: item_2
+    :name: Item 2
+    :description: This is Item 2
+    :images: 
+        - "cars"
