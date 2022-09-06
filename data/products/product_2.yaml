@@ -1,5 +1,6 @@
 ---
 :title: product type 2
+:id: product_2
 :description: xyz 2
 :icon: /images/product_1/icons-100.png
 :items:
@@ -9,12 +10,10 @@
     :description: This is Item 1
     :images: 
         - https://images.pexels.com/photos/20787/pexels-photo.jpg?cs=srgb&dl=pexels-krysten-merriman-20787.jpg
-        - https://images.pexels.com/photos/20787/pexels-photo.jpg?cs=srgb&dl=pexels-krysten-merriman-20787.jpg
 
   item_2:
     :id: item_2
     :name: Item 2
     :description: This is Item 2
     :images: 
-        - https://images.pexels.com/photos/20787/pexels-photo.jpg?cs=srgb&dl=pexels-krysten-merriman-20787.jpg
         - https://images.pexels.com/photos/20787/pexels-photo.jpg?cs=srgb&dl=pexels-krysten-merriman-20787.jpg

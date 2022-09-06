@@ -1,5 +1,6 @@
 ---
 :title: product type 1
+:id: product_1
 :description: xyz
 :icon: /images/product_1/icons-100.png
 :items:
@@ -9,6 +10,8 @@
     :description: This is Item 1
     :images: 
         - https://images.pexels.com/photos/20787/pexels-photo.jpg?cs=srgb&dl=pexels-krysten-merriman-20787.jpg
+        - https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_4x3.jpg
+        - https://cdn.pixabay.com/photo/2015/11/16/14/43/cat-1045782__340.jpg
   item_2:
     :id: item_2
     :name: Item 2
