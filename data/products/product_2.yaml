@@ -1,16 +1,20 @@
 ---
-:title: product type 1
-:description: xyz
+:title: product type 2
+:description: xyz 2
+:icon: /images/product_1/icons-100.png
 :items:
   item_1:
     :id: item_1
     :name: Item 1
     :description: This is Item 1
     :images: 
-        - "cars"
+        - https://images.pexels.com/photos/20787/pexels-photo.jpg?cs=srgb&dl=pexels-krysten-merriman-20787.jpg
+        - https://images.pexels.com/photos/20787/pexels-photo.jpg?cs=srgb&dl=pexels-krysten-merriman-20787.jpg
+
   item_2:
     :id: item_2
     :name: Item 2
     :description: This is Item 2
     :images: 
-        - "cars"
+        - https://images.pexels.com/photos/20787/pexels-photo.jpg?cs=srgb&dl=pexels-krysten-merriman-20787.jpg
+        - https://images.pexels.com/photos/20787/pexels-photo.jpg?cs=srgb&dl=pexels-krysten-merriman-20787.jpg

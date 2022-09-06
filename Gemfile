@@ -25,3 +25,7 @@ group :development do
   # gem "spring"
 end
 
+
+gem "tailwindcss-rails", "~> 2.0"
+
+gem "importmap-rails", "~> 1.1"

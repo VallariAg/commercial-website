@@ -9,6 +9,7 @@ class ProductsController < ApplicationController
     product = YAML::load(File.open("data/products/" + params[:product_id] + ".yaml"))
     @title = product[:title]
     @description = product[:description]
+    @icon = product[:icon]
     @items = product[:items]
     puts @items
   end
