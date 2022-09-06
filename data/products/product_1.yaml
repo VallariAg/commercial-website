@@ -1,7 +1,7 @@
 ---
 :title: product type 1
 :id: product_1
-:description: xyz
+:description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 :icon: /images/product_1/icons-100.png
 :items:
   item_1:
