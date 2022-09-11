@@ -29,9 +29,10 @@ module.exports = {
     },
   },
   plugins: [
+    // require("./../node_modules/flowbite/plugin.js"),
+    // require('flowbite/plugin'),
     require('@tailwindcss/forms'),
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/typography'),
-    require('flowbite/plugin'),
   ]
 }
