@@ -8,6 +8,7 @@ product_1:
     - item_1
     - item_1
     - item_2
+    - item_2
 product_2:
   :id: product_2
   :name: Product 2
@@ -16,4 +17,5 @@ product_2:
   :featured:
     - item_1
     - item_1
+    - item_2
     - item_2

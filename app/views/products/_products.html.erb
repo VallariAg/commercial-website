@@ -1,13 +1,27 @@
-<ul class="grid grid-cols-1 xl:grid-cols-2 gap-8">
-  <% products.keys.each do |product| %>
-    <li class="min-w-full">
-      <a href="/<%= products[product][:id] %>" class="min-w-full flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-        <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src=<%= products[product][:image]%> alt="">
-        <div class="flex flex-col justify-between p-4 leading-normal">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><%= products[product][:name]%></h5>
+
+<ul class="grid grid-cols-1 xl:grid-cols-2">
+    <% products.keys.each do |product| %>
+        <div class="p-6 bg-white rounded-lg dark:bg-gray-800 dark:border-gray-700">
+            <a href="/<%= products[product][:id] %>">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><%= products[product][:name]%></h5>
+            </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400"><%= products[product][:description]%></p>
+
+            <ul class="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+              <% products[product][:featured].each do |item_id| %>
+                <li>
+                  <%= render :template => "products/_item_card", :locals => { :item => get_item_info(product, item_id), :item_link => "/" + product + "/" + item_id } %>
+                </li>
+              <% end %>
+            </ul>
+
+        
+            <a href="/<%= products[product][:id] %>">
+                <button type="button" class="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    Checkout all <%= products[product][:name] %> 
+                </button>
+            </a>
         </div>
-      </a>
-    </li>
-  <% end %>
+
+    <% end %>
 </ul>

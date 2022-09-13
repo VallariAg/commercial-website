@@ -2,7 +2,7 @@ require 'yaml'
 
 class ProductsController < ApplicationController
   def index
-    @products =  YAML::load(File.open("data/products.yaml"))
+    @products = helpers.get_all_products()
   end
 
   def show
@@ -11,6 +11,5 @@ class ProductsController < ApplicationController
     @description = product[:description]
     @icon = product[:icon]
     @items = product[:items]
-    puts @items
   end
 end
