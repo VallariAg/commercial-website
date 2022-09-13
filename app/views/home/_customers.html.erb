@@ -1,0 +1,21 @@
+<div class=" mt-4 mb-8 text-center">
+  <h1 class="font-bold text-4xl">Our customers</h1>
+  <span class="text-gray-700">
+    <h5> Some of our famous customers you might have heard about. </h5> 
+    <h5 class="text-left mt-6"> <%= @customers["text"] %> </h5> 
+    
+    <div class="flex flex-row flex-wrap justify-center my-8">
+      <% @customers["logos"].each do | customer | %>
+        <div class="flex items-center pl-2.5 mb-5 gap-3">
+             <% if customer[:img] %>
+                <img src="<%= customer[:img]%>" class="mr-3 h-6 sm:h-7" alt="Flowbite Logo" />
+             <% end %>
+             <% if customer[:name] %>
+                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"><%= customer[:name]%></span>
+             <% end %>
+        </div>
+      <% end %>
+    </div>
+  </span>
+</div>
+<hr class="my-4 mx-auto w-48 h-1 bg-gray-100 rounded border-0 md:my-10 dark:bg-gray-700">

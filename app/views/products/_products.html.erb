@@ -1,11 +1,11 @@
 
-<ul class="grid grid-cols-1 xl:grid-cols-2">
+<ul class="grid grid-cols-1 xl:grid-cols-2 gap-4">
     <% products.keys.each do |product| %>
-        <div class="p-6 bg-white rounded-lg dark:bg-gray-800 dark:border-gray-700">
+        <div class="px-6 bg-white rounded-lg dark:bg-gray-800 dark:border-gray-700">
             <a href="/<%= products[product][:id] %>">
-                <h5 class="mb-2 text-3xl font-medium tracking-tight text-gray-900 dark:text-white"><%= products[product][:name]%></h5>
+                <h5 class="mb-2 text-3xl underline underline-offset-8 font-medium tracking-tight text-gray-900 dark:text-white"><%= products[product][:name]%></h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400"><%= products[product][:description]%></p>
+            <p class="mb-3 font-normal text-gray-500 dark:text-gray-400"><%= products[product][:description]%></p>
 
             <ul class="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
               <% products[product][:featured].each do |item_id| %>
@@ -15,7 +15,7 @@
               <% end %>
             </ul>
 
-            <a href="/<%= products[product][:id] %>" class="inline-flex items-center font-medium text-gray-600 dark:text-gray-500 hover:underline">
+            <a href="/<%= products[product][:id] %>" class="inline-flex float-right items-center font-medium text-gray-600 dark:text-gray-500 hover:underline">
                 Checkout all <%= products[product][:name] %>
                 <svg aria-hidden="true" class="ml-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
             </a>

@@ -10,6 +10,16 @@ customers:
     - :img: https://flowbite.com/docs/images/logo.svg
       :name: flowbite 2
   
-
+contact:
+  email:
+    - exmaple@gmail.com
+  phone:
+    - 99999999
+    - 99999999
+  locations:
+    - Delhi
+    - Lucknow
+    - Surat
+    - Banglore
 
 
