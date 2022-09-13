@@ -7,7 +7,6 @@ module.exports = {
     './app/helpers/**/*.rb',
     './app/javascript/**/*.js',
     './app/views/**/*.{erb,haml,html,slim}',
-    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     colors: {
@@ -29,8 +28,6 @@ module.exports = {
     },
   },
   plugins: [
-    // require("./../node_modules/flowbite/plugin.js"),
-    // require('flowbite/plugin'),
     require('@tailwindcss/forms'),
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/typography'),

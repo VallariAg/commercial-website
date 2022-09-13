@@ -10,6 +10,8 @@
     <%= stylesheet_link_tag "application" %>
     <%= javascript_importmap_tags %>
 
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+
   </head>
 
   <body>
@@ -18,5 +20,6 @@
         <main class=""> <%= yield %> </main>
         <%= render 'layouts/footer' %> 
       </div>
-  </body>
+      <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+    </body>
 </html>
