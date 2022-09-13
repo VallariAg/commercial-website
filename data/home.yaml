@@ -7,8 +7,7 @@ customers:
   logos:
     - :img: https://flowbite.com/docs/images/logo.svg
       :name: flowbite
-    - :img: https://flowbite.com/docs/images/logo.svg
-      :name: flowbite 2
+    - :name: heroku
   
 contact:
   email:

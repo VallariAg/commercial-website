@@ -5,6 +5,7 @@ class HomeController < ApplicationController
     @products = helpers.get_featured_products(product_list)
     @intro = data["intro"]
     @customers = data["customers"]
+    @contact = data["contact"]
 
   end
 end
