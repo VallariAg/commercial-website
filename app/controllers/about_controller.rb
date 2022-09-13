@@ -1,5 +1,6 @@
 class AboutController < ApplicationController
   def index
-    @sections = YAML::load(File.open("data/about.yaml"))
+    data = YAML::load(File.open("data/about.yaml"))
+    @QandA = data["QandA"]
   end
 end

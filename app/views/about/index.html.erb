@@ -1,22 +1,28 @@
 <div class=" mt-4 mb-8">
-  <h1 class="font-bold text-4xl">About us</h1>
+  <%# <h1 class="font-bold text-4xl">About us</h1> %>
   <span class="text-gray-700">
     Find out more about us here. 
   </span>
 </div>
 
-<div>
-  <% @sections.keys.each do |section| %>
-    <div class="my-4">
-      <h1 class="font-bold text-xl"> <%= section %> </h1>
-      <% if @sections[section]["image"] %>
-        <div class="grid grid-cols-1 items-center bg-white rounded-lg md:grid-cols-5 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-          <span class="col-span-4 text-gray-700 pr-4"> <%= @sections[section]["text"] %> </span>
-          <img src="<%= @sections[section]["image"]%>" class="w-full md:w-40 mx-auto h-auto">
-        </div>
-      <% else %>
-        <span class="text-gray-700"> <%= @sections[section]["text"] %> </span>
-      <% end %> 
+
+
+<hr class="mx-auto w-48 h-1 bg-gray-100 rounded border-0 dark:bg-gray-700">
+
+<h1 class="font-semibold text-2xl"> Find out more </h1>
+
+<div id="accordion-flush" data-accordion="collapse" data-active-classes="font-medium bg-white dark:bg-gray-900 text-gray-900 dark:text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
+  <% @QandA.each.with_index(1) do | qa, index | %>
+    <h2 id="accordion-flush-heading-<%= index%>">
+      <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white" data-accordion-target="#accordion-flush-body-<%= index%>" aria-expanded="true" aria-controls="accordion-flush-body-1">
+        <span><%= qa["question"] %></span>
+        <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+      </button>
+    </h2>
+    <div id="accordion-flush-body-<%= index%>" class="" aria-labelledby="accordion-flush-heading-<%= index%>">
+      <div class="py-5 font-medium border-b border-gray-200 dark:border-gray-700">
+        <p class="mb-2 text-gray-500 dark:text-gray-400"> <%= qa["answer"] %> </p>
+      </div>
     </div>
   <% end %>
 </div>
