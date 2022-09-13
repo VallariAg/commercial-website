@@ -7,7 +7,7 @@
 
 
 
-<ul class="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+<ul class="grid grid-cols-1 m-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
   <% @items.keys.each do |item| %>
     <li>
       <%= render :template => "products/_item_card", :locals => { :item => @items[item], :item_link =>  "/" + params[:product_id] + "/" + item } %>

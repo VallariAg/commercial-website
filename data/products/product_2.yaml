@@ -8,6 +8,7 @@
     :id: item_1
     :name: Item 1
     :description: This is Item 1
+    :short_description: This is an awesome product!
     :images: 
         - https://images.pexels.com/photos/20787/pexels-photo.jpg?cs=srgb&dl=pexels-krysten-merriman-20787.jpg
 
@@ -15,5 +16,6 @@
     :id: item_2
     :name: Item 2
     :description: This is Item 2
+    :short_description: This is an awesome product!
     :images: 
         - https://images.pexels.com/photos/20787/pexels-photo.jpg?cs=srgb&dl=pexels-krysten-merriman-20787.jpg
