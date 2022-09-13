@@ -4,8 +4,8 @@
      <%= @intro%>
   </span>
 </div>
-
 <hr class="my-4 mx-auto w-48 h-1 bg-gray-100 rounded border-0 md:my-10 dark:bg-gray-700">
+<%# =========================== %>
 
 <figure class="mx-auto max-w-screen-md text-center">
     <svg aria-hidden="true" class="mx-auto mb-3 w-12 h-12 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"></path></svg>
@@ -20,13 +20,44 @@
         </div>
     </figcaption>
 </figure>
-
-
-
-
-
 <hr class="my-4 mx-auto w-48 h-1 bg-gray-100 rounded border-0 md:my-10 dark:bg-gray-700">
+<%# =========================== %>
 
+<div class=" mt-4 mb-8 text-center">
+  <h1 class="font-bold text-4xl">Featured Products</h1>
+  <span class="text-gray-700">
+    <h5> Here are some of our best products. </h5> 
+    <a href="/products" class="inline-flex items-center font-medium text-gray-600 dark:text-gray-500 hover:underline">
+        Checkout all products
+        <svg aria-hidden="true" class="ml-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+    </a>
+  </span>
+</div>
 <%= render :template => "products/_products", :locals => { :products => @products } %>
-
 <hr class="my-4 mx-auto w-48 h-1 bg-gray-100 rounded border-0 md:my-10 dark:bg-gray-700">
+<%# =========================== %>
+
+<div class=" mt-4 mb-8 text-center">
+  <h1 class="font-bold text-4xl">Our customers</h1>
+  <span class="text-gray-700">
+    <h5> Some of our famous customers you might have heard about. </h5> 
+    <h5 class="text-left mt-6"> <%= @customers["text"] %> </h5> 
+    
+    <div class="flex flex-row flex-wrap justify-center my-8">
+      <% @customers["logos"].each do | customer | %>
+        <div class="flex items-center pl-2.5 mb-5 gap-3">
+             <% if customer[:img] %>
+                <img src="<%= customer[:img]%>" class="mr-3 h-6 sm:h-7" alt="Flowbite Logo" />
+             <% end %>
+             <% if customer[:name] %>
+                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"><%= customer[:name]%></span>
+             <% end %>
+        </div>
+      <% end %>
+    </div>
+  </span>
+</div>
+<hr class="my-4 mx-auto w-48 h-1 bg-gray-100 rounded border-0 md:my-10 dark:bg-gray-700">
+<%# =========================== %>
+
+
