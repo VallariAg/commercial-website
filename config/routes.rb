@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root "products#index"
+  root "home#index"
   
   get '/about', to: "about#index"
 
@@ -8,6 +8,4 @@ Rails.application.routes.draw do
   get "/:product_id", to: "products#show"
   # get "/item/:item_id", to: "item#index"
 
-  # Defines the root path route ("/")
-  # root "articles#index"
 end

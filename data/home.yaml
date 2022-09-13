@@ -1,0 +1,15 @@
+intro: We are xyz org.
+products:
+  - product_1
+  - product_2
+customers:
+  text: We have sold xyz products
+  logos:
+    - img:
+      link:
+    - img: 
+      link:
+  
+
+
+
