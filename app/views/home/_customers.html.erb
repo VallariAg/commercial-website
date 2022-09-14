@@ -6,7 +6,7 @@
     
     <div class="flex flex-row flex-wrap justify-center my-8">
       <% @customers["logos"].each do | customer | %>
-        <div class="flex items-center pl-2.5 mb-5 gap-3">
+        <div class="flex items-center justify-start p-4 mb-5 gap-3 bg-gray-100 mx-4">
              <% if customer[:img] %>
                 <img src="<%= customer[:img]%>" class="mr-3 h-6 sm:h-7" alt="Flowbite Logo" />
              <% end %>
