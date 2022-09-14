@@ -1,0 +1,45 @@
+---
+:title: Sculptures
+:id: sculptures
+:description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+:icon: /images/product_1/icons-100.png
+:items:
+  item_1:
+    :id: item_1
+    :name: Lighthouse Tealight Holder & Sculpture
+    :description: This is Item 1
+    :short_description: The Lighthouse tealight holder and sculpture in white is a cute addition to any space.
+    :images: 
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/98458358_719706268803018_3001014752587256873_n_600x.jpg?v=1658408006
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/98458358_719706268803018_3001014752587256873_n_600x.jpg?v=1658408006
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/98458358_719706268803018_3001014752587256873_n_600x.jpg?v=1658408006
+
+  item_2:
+    :id: item_2
+    :name: Bird Faceted Sculpture Small 
+    :description: This is Item 2
+    :short_description: Enriching your interior with cheerful eye-catchers is always a good idea. 
+    :images: 
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/Black-Bird-1_600x.jpg?v=1662777562
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/PT3609BK-Black_00_600x.jpg?v=1662777564
+
+
+  item_3:
+    :id: item_3
+    :name: Stretching Cat Faceted Sculpture
+    :description: This is Item 2
+    :short_description: This faceted matte black sculpture captures the cat in a stretching pose.
+    :images: 
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/StretchingCat2_600x.jpg?v=1598688411
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/StretchingCat2_600x.jpg?v=1598688411
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/StretchingCat2_600x.jpg?v=1598688411
+
+  item_4:
+    :id: item_4
+    :name: Anette Wine Glass Holder Sculpture
+    :description: This is Item 2
+    :short_description: This vibrant and quirky sculpture is a functional piece of decor.
+    :images: 
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/AnetteWineGlassHolderSculpture_600x.jpg?v=1635255399
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/AnetteWineGlassHolderSculpture_600x.jpg?v=1635255399
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/AnetteWineGlassHolderSculpture_600x.jpg?v=1635255399

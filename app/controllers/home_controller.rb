@@ -6,6 +6,7 @@ class HomeController < ApplicationController
     @intro = data["intro"]
     @customers = data["customers"]
     @contact = data["contact"]
+    @quote = data["quote"]
 
   end
 end

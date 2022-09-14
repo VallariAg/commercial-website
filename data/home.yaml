@@ -1,14 +1,17 @@
-intro: We are xyz org.
+intro: We are a modern home decor store to enrich homes with ancient style woodwork and handicraft.
 products:
-  - product_1
-  - product_2
+  - table_lamps
+  - sculptures
 customers:
   text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
   logos:
     - :img: https://flowbite.com/docs/images/logo.svg
       :name: flowbite
     - :name: heroku
-  
+quote: 
+  text: Create with the heart; build with the mind.
+  author: Criss Jami
+  author_description: Author
 contact:
   email:
     - exmaple@gmail.com

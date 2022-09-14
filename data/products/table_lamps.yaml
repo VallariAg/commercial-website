@@ -1,0 +1,60 @@
+---
+:title: Table lamps
+:id: table_lamps
+:description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+:icon: /images/product_1/icons-100.png
+:items:
+  item_1:
+    :id: item_1
+    :name: Wooden Shade Empire 
+    :description: This is Item 1
+    :short_description: Homesake Wooden Table Lamp Antique Home Decor With Shade Empire.
+    :images: 
+        - https://m.media-amazon.com/images/I/81aSwKV4pwL._SL1500_.jpg
+        - https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_4x3.jpg
+        - https://cdn.pixabay.com/photo/2015/11/16/14/43/cat-1045782__340.jpg
+  item_2:
+    :id: item_2
+    :name: Floral Carved Table Lamp
+    :description: This is Item 2
+    :short_description: Floral Carved Black Wood Table Lamp With Green Shade.
+    :images: 
+        - https://www.homesake.in//media/catalog/product/cache/1/image/800x/624129f8d7084d5afbec89e8ab5a5fd1/i/h/ih0a674_theme.jpg
+        - https://image.shutterstock.com/image-vector/green-floor-lamp-on-three-260nw-1929592361.jpg
+        - https://image.shutterstock.com/image-vector/green-floor-lamp-on-three-260nw-1929592361.jpg
+  item_3:
+    :id: item_3
+    :name: Statuesque Charlotte Tall Lamp
+    :description: This is Item 3
+    :short_description: At almost forty inches tall this table lamp with an intricate base.
+    :images: 
+        - https://cdn.shopify.com/s/files/1/0045/8948/6193/products/19-CCG1476_1200x.jpg?v=1652734641
+        - https://image.shutterstock.com/image-vector/green-floor-lamp-on-three-260nw-1929592361.jpg
+        - https://image.shutterstock.com/image-vector/green-floor-lamp-on-three-260nw-1929592361.jpg
+  item_4:
+    :id: item_4
+    :name: Rook Turned Wood Pillar
+    :description: This is Item 4
+    :short_description: Beautiful turned wooden floor lamp in a chess-piece like form.
+    :images: 
+        - http://cdn.shopify.com/s/files/1/2129/3845/products/Rook-Turned-Wood-Pillar-Floor-Lamp-Large-in-Natural-Floor-Lamp-Zaffero-ZAF12060_grande.jpg?v=1635443438
+        - https://image.shutterstock.com/image-vector/green-floor-lamp-on-three-260nw-1929592361.jpg
+        - https://image.shutterstock.com/image-vector/green-floor-lamp-on-three-260nw-1929592361.jpg
+  item_5:
+    :id: item_5
+    :name: Homesake Table Lamp Drum Cotton
+    :description: This is Item 4
+    :short_description: Designed with the traditional classic style, bestselling captivating wooden table lamp.
+    :images: 
+        - https://m.media-amazon.com/images/I/91RuUjiLG2L._SL1500_.jpg
+        - https://image.shutterstock.com/image-vector/green-floor-lamp-on-three-260nw-1929592361.jpg
+        - https://image.shutterstock.com/image-vector/green-floor-lamp-on-three-260nw-1929592361.jpg
+  item_6:
+    :id: item_6
+    :name: Eureka Polka Natural Wood
+    :description: This is Item 4
+    :short_description: Wooden Table Lamp With Khadi Shade Hand turned wooden base with fabric.
+    :images: 
+        - https://www.homesake.in//media/catalog/product/cache/1/thumbnail/2a515aea5a310275db72987dc11cecef/i/h/ih0a695_theme.jpg
+        - https://image.shutterstock.com/image-vector/green-floor-lamp-on-three-260nw-1929592361.jpg
+        - https://image.shutterstock.com/image-vector/green-floor-lamp-on-three-260nw-1929592361.jpg

@@ -1,0 +1,60 @@
+---
+:title: Table lamps
+:id: desk_clocks
+:description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+:icon: /images/product_1/icons-100.png
+:items:
+  item_1:
+    :id: item_1
+    :name: Wooden Ball Desk Clock
+    :description: This is Item 1
+    :short_description: Accentuate your desk with this wooden spherical sculpture which functions as a desk clock.
+    :images: 
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/Ball-Desk-Clock-1_600x.jpg?v=1560154535
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/Ball-Desk-Clock-2_600x.jpg?v=1560154537
+        - https://cdn.pixabay.com/photo/2015/11/16/14/43/cat-1045782__340.jpg
+  item_2:
+    :id: item_2
+    :name: Wooden Wedge Table Clock
+    :description: Accentuate your desk with this wooden sculpture which functions as a desk clock.
+    :short_description: Accentuate your desk with this wooden sculpture which functions as a desk clock.
+    :images: 
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/wedge-desk-clock-black-1_600x.jpg?v=1599131207
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/wedge-desk-clock-black-3_600x.jpg?v=1599131211
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/wedge-desk-clock-black-5_600x.jpg?v=1599131208
+  item_3:
+    :id: item_3
+    :name: Lupin Desk Clock - Black
+    :description: This is Item 3
+    :short_description: A station-style mantel clock in black is a stylish and impactful piece to add to the desk.
+    :images: 
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/Table-clock-Lupin-tavolo---Black4_600x.jpg?v=1656676589
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/RailwayBlack3a_600x.jpg?v=1641810523
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/RailwayBlack3_600x.jpg?v=1641436194
+  item_4:
+    :id: item_4
+    :name: Railway Mantel Clock
+    :description: This is Item 4
+    :short_description: A station-style mantel clock in black is a stylish and impactful piece to add to the desk.
+    :images: 
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/RailwayBlack4_380aaece-44d7-4e16-8f95-fb99b89446b8_600x.jpg?v=1641810523
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/RailwayBlack3a_600x.jpg?v=1641810523
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/RailwayBlack3_600x.jpg?v=1641436194
+  item_5:
+    :id: item_5
+    :name: Boxed Flip Table Clock
+    :description: This is Item 4
+    :short_description: Bold variant of the famous Flip clock from Karlsson. 
+    :images: 
+        - https://cdn.shopify.com/s/files/1/1586/2541/products/WallTableclockBoxedFlipXLmattblack_3_600x.jpg?v=1662777957
+        - https://image.shutterstock.com/image-vector/green-floor-lamp-on-three-260nw-1929592361.jpg
+        - https://image.shutterstock.com/image-vector/green-floor-lamp-on-three-260nw-1929592361.jpg
+  item_6:
+    :id: item_6
+    :name: Eureka Polka Natural Wood
+    :description: This is Item 4
+    :short_description: Wooden Table Lamp With Khadi Shade Hand turned wooden base with fabric.
+    :images: 
+        - https://www.homesake.in//media/catalog/product/cache/1/thumbnail/2a515aea5a310275db72987dc11cecef/i/h/ih0a695_theme.jpg
+        - https://image.shutterstock.com/image-vector/green-floor-lamp-on-three-260nw-1929592361.jpg
+        - https://image.shutterstock.com/image-vector/green-floor-lamp-on-three-260nw-1929592361.jpg
